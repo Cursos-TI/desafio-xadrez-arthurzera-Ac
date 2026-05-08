@@ -5,6 +5,7 @@ int main(){
     int torre = 5;
     int bispo = 5;
     int rainha = 8;
+    int cavalo = 1;
 
     // Movimentação da Torre
     // Utilizando a estrutura 'for' para mover 5 casas para a direita
@@ -31,5 +32,17 @@ int main(){
         i++;
     } while (i < 8);
 
-    return 0;
+  // Movimentação do Cavalo
+  // Utilizando a estrutura 'for' para mover em formato de "L"
+    printf("Movimento do Cavalo: %d\n", cavalo);
+   while (cavalo <= 1)
+   {
+     for (int i = 0; i < 2; i++)
+     {
+        printf("Baixo\n");
+     }
+        printf("Esquerda\n");
+        cavalo++; // Incremento do Cavalo para evitar loop infinito
+   }
+return 0;
 }
