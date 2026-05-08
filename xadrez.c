@@ -33,7 +33,7 @@ int main(){
     } while (i < 8);
 
   // Movimentação do Cavalo
-  // Utilizando a estrutura 'for' para mover em formato de "L"
+  // Utilizando a estrutura 'while' e 'for' para mover em formato de "L"
     printf("Movimento do Cavalo: %d\n", cavalo);
    while (cavalo <= 1)
    {
